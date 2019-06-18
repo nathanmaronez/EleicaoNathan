@@ -70,36 +70,3 @@
 
     </body>
 </html>
-
-
-<!---
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Zona Eleitoral</title>
-        <meta charset="UTF-8">        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" href="./css/bootstrap-responsive.min.css" type="text/css"/>
-        <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
-        <script type='text/javascript' src='./dashboards/Dashboard.controller.js'></script>
-        <script type="text/javascript" src="./services/service.js"></script>
-    </head>
-    
-    <body>
-        <form class="container" action="/Eleicao/redirect" method="POST">
-            <h1>Area do Usuario</h1>     
-                     
-            <button class="confirm" onclick="redirect('votacao')">Votar</button>
-
-            <button style="display: none;" id="aut" class="clear" onclick="autorizar('autorizar')">Autorizar</button>
-            <button style="display: none;" id="computarVotos" class="other" onclick="autorizar('computarVotos')">Computar Votos</button>
-
-            <input type="hidden" name="titulo" id="titulo" value="${sessionScope.titulo}"/>
-            <input type="hidden" name="tipo" id="tipo" value="${sessionScope.tipo}"/>
-            <input type="hidden" name="pagina" id="pagina"/>
-            <input type="hidden" id="permissao" value="${sessionScope.permissao}" readonly/>
-            <input type="hidden" id="historico" value="${sessionScope.historico}" readonly/>
-          </form>
-    </body>
-</html>
---->
