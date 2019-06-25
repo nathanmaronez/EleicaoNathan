@@ -49,7 +49,7 @@ public class VotingController extends HttpServlet
 				session.setAttribute("titulo", titulo);
 				session.setAttribute("tipo", tipo);
 				
-				request.getRequestDispatcher("../Eleicao").forward(request, response);	
+				request.getRequestDispatcher("/dashboards/Dashboard.view.jsp").forward(request, response);	
 				response.getWriter().flush();	
 			}
 			else

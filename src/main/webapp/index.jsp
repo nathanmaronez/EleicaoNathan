@@ -53,13 +53,13 @@
 						</div>
 				</div>
 		
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.placeholder.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/check.js"></script>
+			    <!-- jQuery -->
+			    <script src="js/jquery.min.js"></script>
+			    <script src="js/bootstrap.min.js"></script>
+			    <script src="js/jquery.placeholder.min.js"></script>
+			    <script src="js/jquery.waypoints.min.js"></script>
+			    <script src="js/main.js"></script>
+			    <script src="js/check.js"></script>
 
 
 		</body>
